@@ -32,7 +32,8 @@ class Point {
         return this.x + ";" + this.y;
 
     }
-
+    
+    //Метод для нахождения расстояния между точками
     public double distance(Point p) {
         return sqrt((p.x - this.x) * (p.x - this.x) + (p.y - this.y) * (p.y - this.y));
 
